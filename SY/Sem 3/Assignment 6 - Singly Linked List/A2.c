@@ -9,9 +9,9 @@ void main(){
  	head1=(NODE *)malloc(sizeof(NODE));
  	head1->next=NULL;
   	createList(head1);
-	printf("\n\tBefore reversing - \n");
+	printf("\n\tBefore reversing - ");
         display(head1);
-	printf("\n\tAfter reversing - \n");
+	printf("\n\tAfter reversing  - ");
 	rev(head1);
         display(head1);
 }
