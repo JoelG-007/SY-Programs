@@ -37,12 +37,12 @@ void main(){
          			else
            				printf("Element found at position %d",pos);
          			break;
-  			case 4 :printf("Enter the element:");
+  			case 4 :printf("Enter the element: ");
          			scanf("%d",&n);
          			deleteByVal(head1,n);
          			display(head1);
          			break;
-  			case 5 :printf("Enter the element:");
+  			case 5 :printf("Enter the position: ");
          			scanf("%d",&pos);
          			deleteByPos(head1,pos);
          			display(head1);
