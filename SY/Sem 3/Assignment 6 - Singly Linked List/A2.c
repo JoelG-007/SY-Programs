@@ -5,21 +5,13 @@
 #include<stdlib.h>
 #include"singlylist.h" 
 void main(){
- 	NODE *head1,*head2,*head3;
- 	int choice,n,pos;
+ 	NODE *head1;
  	head1=(NODE *)malloc(sizeof(NODE));
  	head1->next=NULL;
-
-	do{
-  		printf("\n\t1.Create \n\t2.Reverse \n\t3.Exit");
- 		printf("\n Enter your choice:");
- 		scanf("%d",&choice);
-		switch(choice){
-  			case 1 :createList(head1);
-        			break;
-  			case 2 :rev(head1);
-                    		display(head1);
-                    		break;
-    		}
-  	}while(choice!=3);
+  	createList(head1);
+	printf("\n\tBefore reversing - \n");
+        display(head1);
+	printf("\n\tAfter reversing - \n");
+	rev(head1);
+        display(head1);
 }
