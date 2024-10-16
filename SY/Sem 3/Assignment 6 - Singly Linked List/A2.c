@@ -9,10 +9,6 @@ void main(){
  	int choice,n,pos;
  	head1=(NODE *)malloc(sizeof(NODE));
  	head1->next=NULL;
- 	head2=(NODE *)malloc(sizeof(NODE));
- 	head2->next=NULL;
- 	head3=(NODE *)malloc(sizeof(NODE));
- 	head3->next=NULL;
 
 	do{
   		printf("\n\t1.Create \n\t2.Reverse \n\t3.Exit");
@@ -22,8 +18,8 @@ void main(){
   			case 1 :createList(head1);
         			break;
   			case 2 :rev(head1);
-                    display(head1);
-                    break;
-    			}
+                    		display(head1);
+                    		break;
+    		}
   	}while(choice!=3);
 }
