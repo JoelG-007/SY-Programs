@@ -20,7 +20,7 @@ void main() {
         	switch(choice){
             		case 1 :printf("\nEnter the element and position: ");
                 		printf("\nElement - ");
-				scanf("%d",&n);
+				scanf("%d",&num);
 				printf("\nPosition - ");
                     		scanf("%d",&pos);
                 		insert(head, num, pos);
