@@ -19,42 +19,45 @@ void main() {
         	scanf("%d", &choice);
         	switch(choice){
             		case 1 :printf("\nEnter the element and position: ");
-                			scanf("%d%d", &num, &pos);
-                			insert(head, num, pos);
-                			display(head);
-               	 			break;
+                		printf("\nElement - ");
+				scanf("%d",&n);
+				printf("\nPosition - ");
+                    		scanf("%d",&pos);
+                		insert(head, num, pos);
+                		display(head);
+               	 		break;
             		case 2 :printf("\nEnter the element: ");
-                			scanf("%d",&num);
-                			deleteByValue(head, num);
-                			display(head);
-                			break;
+                		scanf("%d",&num);
+                		deleteByValue(head, num);
+                		display(head);
+                		break;
             		case 3 :printf("\nEnter the position: ");
-                			scanf("%d", &pos);
-                			deleteByPos(head, pos);
-                			display(head);
-                			break;
+                		scanf("%d", &pos);
+                		deleteByPos(head, pos);
+                		display(head);
+                		break;
             		case 4 :printf("\nEnter the element to be searched: ");
-                			scanf("%d",&num);
-                			pos = search(head, num);
-                			if(pos == -1)
+                		scanf("%d",&num);
+                		pos = search(head, num);
+                		if(pos == -1)
                     			printf("\nElement not found.");
-                			else
+                		else
                     			printf("\nElement found at position %d", pos + 1);
-                			break;
+                		break;
             		case 5 :printf("\nList Item:\n");
-                			display(head);
-                			break;
+                		display(head);
+                		break;
             		case 6 :printf("\nEnter a number to append: ");
-                			scanf("%d", &num);
-                			append(head, num);
-                			printf("\nNumber appended:\n");
-                			display(head);
-                			break;
+                		scanf("%d", &num);
+                		append(head, num);
+                		printf("\nNumber appended:\n");
+                		display(head);
+                		break;
             		case 7 :printf("Exiting...");
-                			break;
+                		break;
             		default:
-                			printf("Invalid Choice!!");
-                			break;
+                		printf("Invalid Choice!!");
+                		break;
         	}
     	} while(choice != 7);
 }
