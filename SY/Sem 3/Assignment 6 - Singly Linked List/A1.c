@@ -23,9 +23,9 @@ void main(){
         			break;
   			case 2 :printf("Enter the element and position:");
          			printf("\nElement - ");
-					scanf("%d",&n);
-					printf("\nPosition - ");
-                    scanf("%d",&pos);
+				scanf("%d",&n);
+				printf("\nPosition - ");
+                    		scanf("%d",&pos);
          			insert(head1,n,pos-1);
          			display(head1);
         			break;
@@ -48,10 +48,10 @@ void main(){
          			display(head1);
          			break;
 			case 6 :printf("Enter element data - ");
-					scanf("%d",&n);
-					append(head1, n);
-					display(head1);
-					break;
+				scanf("%d",&n);
+				append(head1, n);
+				display(head1);
+				break;
 			case 7 :rev(head1);
          			display(head1);
          			break; 
