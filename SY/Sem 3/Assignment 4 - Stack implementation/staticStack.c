@@ -6,7 +6,7 @@
 #include<stdlib.h>
 #include"ststack.h"
 void main(){
-	int n,choice,i;
+	int n,choice;
   	STACK s;
   	inistack(&s);
 	do{
