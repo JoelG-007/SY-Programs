@@ -14,7 +14,7 @@ void main(){
       		printf("\nEnter operation to be performed -  ");
       		scanf("%d",&choice);
       		switch(choice){
-		case 1:if(i>isfull(&s))
+		case 1:if(isfull(&s))
             			printf("\n\n----------------------\nSTACK OVERFLOW\n----------------------\n");
           	       else{
 	      			printf("Enter the element (to be PUSH'd): \n");
