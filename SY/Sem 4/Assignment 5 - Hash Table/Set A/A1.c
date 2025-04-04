@@ -1,3 +1,12 @@
+/*
+    Write a program to implement various types of hash functions which are used to place the  
+    data in a hash table  
+        a. Division Method  
+        b. Mid Square Method  
+        c. Digit Folding Method  
+    Accept n values from the user and display appropriate message in case of collision for each of the 
+    above functions.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
