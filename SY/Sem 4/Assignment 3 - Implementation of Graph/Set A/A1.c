@@ -1,3 +1,8 @@
+/*
+	Write a C program that accepts the vertices and edges of a graph and stores it as an 
+	adjacency matrix. Display the adjacency matrix. Implement functions to print indegree, 
+	outdegree and total degree of all vertices of graph.
+*/
 #include<stdio.h>
 #define MAX 10
 void initialize(int n, int m[MAX][MAX]){
