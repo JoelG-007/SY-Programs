@@ -1,3 +1,7 @@
+/*
+	Write a C program that accepts the vertices and edges of a graph. Create adjacency list. 
+	Implement functions to print indegree, outdegree and total degree of all vertex of graph. 
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
