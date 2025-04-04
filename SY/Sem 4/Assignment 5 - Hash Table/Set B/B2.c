@@ -1,3 +1,8 @@
+/*
+    Write a menu driven program to implement hash table using array (insert, search, delete, 
+    display). Use any of the above-mentioned hash functions. In case of collision apply quadratic 
+    probing.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
