@@ -1,3 +1,6 @@
+/*
+    Write a program to implement hash table using chaining (Use linked list).
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
