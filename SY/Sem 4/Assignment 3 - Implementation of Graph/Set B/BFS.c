@@ -1,3 +1,7 @@
+/*
+    Write a C program that accepts the vertices and edges of a graph and store it as an 
+    adjacency matrix. Implement function to traverse the graph using Breadth First Search (BFS). 
+*/
 #include <stdio.h>
 #define MAX 20
 
