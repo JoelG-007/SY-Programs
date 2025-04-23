@@ -76,17 +76,17 @@ void preorder(NODE *root){
 void inorder(NODE *root){
   NODE *temp=root;
   if(temp!=NULL){
-    preorder(temp->left);
+    inorder(temp->left);
     printf("%d\t",temp->info);
-    preorder(temp->right);
+    inorder(temp->right);
   }
 }
 
 void postorder(NODE *root){
   NODE *temp=root;
   if(temp!=NULL){
-    preorder(temp->left);
-    preorder(temp->right);
+    postorder(temp->left);
+    postorder(temp->right);
     printf("%d\t",temp->info);
   }
 }
